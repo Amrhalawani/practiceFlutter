@@ -3,6 +3,7 @@ import 'package:flutter_apps/LoginScreen.dart';
 
 import 'ListScreen.dart';
 import 'MessengerScreen.dart';
+import 'bmicalculator/BmiCalculator.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.indigo,
       ),
-      home: ListScreen(),
+      home: BmiCalculator(),
       debugShowCheckedModeBanner: false,
     );
   }
